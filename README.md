@@ -1,6 +1,6 @@
 # Skills in testing 
 
-## Course Program
+### Course Program
 
  1. Test design
  2. Web application testing (figma, charles)
