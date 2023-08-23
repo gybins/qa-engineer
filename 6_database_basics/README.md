@@ -1,4 +1,4 @@
-## This will show examples of how to work with the database
+### This will show examples of how to work with the database
 
 > 1. You have a database with cab rides. The plan was to have 10550 cars on the service line - this figure covers user demand. The team received a lot of complaints: there were not enough cars available. How many cabs were actually on the line?
 >
@@ -9,3 +9,10 @@ Output those companies with fewer than 100 cars. Name the field with the number 
 >
 > 4. After a software update, taxi fleets began reporting that the profits they were making did not match the data the app was giving them. Development suggests that the problem may be in the trip count data. 
 To determine if there is a bug, we need to get a sample with the number of trips of each taxi fleet for November 15 and 16, 2017.
+>
+> 5. Write a query that outputs: 
+transaction number - "id_transaction" from the transactions table;
+category name - "category" from the table products;
+product name - "name" from the products table.
+Joining condition: values in products.id_product and transactions.id_product fields are equal. Field names of the resulting table: id_transaction, category, name. 
+Output 10 rows. Sort the data by ascending transaction number.
