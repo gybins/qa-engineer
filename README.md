@@ -8,5 +8,5 @@
  4. Work with API (Postman)
  5. CygWin operation
  6. Database basics
-
+ 7. HTML/CSS
 
